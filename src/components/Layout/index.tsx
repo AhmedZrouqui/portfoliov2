@@ -12,7 +12,7 @@ function Layout(props: ILayoutProps) {
       <header>
         <Header />
       </header>
-      <section className="py-16 px-10">{props.children}</section>
+      <section className="container py-16 px-10">{props.children}</section>
       <footer>
         <Footer />
       </footer>

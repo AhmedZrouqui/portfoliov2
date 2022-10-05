@@ -6,6 +6,9 @@ function Home() {
   return (
     <div className="max-w-[1020px]">
       <div>
+        <h4 className="font-magilio text-6xl text-blackish">
+          H<span className="italic">ey there,</span>
+        </h4>
         <h1 className="font-magilio text-8xl text-blackish">
           I'm Ahmed Zrouqui!
         </h1>
