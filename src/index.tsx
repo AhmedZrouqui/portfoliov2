@@ -12,7 +12,6 @@ import {
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import { CSSTransition, SwitchTransition } from "react-transition-group";
-import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 const routes = [
@@ -24,11 +23,6 @@ const routes = [
   {
     path: "/projects",
     element: <Projects />,
-    nodeRef: React.createRef(),
-  },
-  {
-    path: "/resume",
-    element: <Resume />,
     nodeRef: React.createRef(),
   },
   {

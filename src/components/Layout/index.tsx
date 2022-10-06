@@ -18,7 +18,7 @@ function Layout(props: ILayoutProps) {
       <header>
         <Header />
       </header>
-      <div className="container py-16 px-10 w-full">{props.children}</div>
+      <div className="container py-16 px-0 w-full">{props.children}</div>
       <footer>
         <Footer />
       </footer>

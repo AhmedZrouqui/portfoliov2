@@ -10,11 +10,6 @@ export const navigation = [
     slug: "projects",
   },
   {
-    path: "/resume",
-    label: "Resume",
-    slug: "resume",
-  },
-  {
     path: "/contact",
     label: "Contact",
     slug: "contact",
