@@ -7,12 +7,18 @@ interface ILayoutProps {
 }
 
 function Layout(props: ILayoutProps) {
+  const [darkMode, setDarkMode] = React.useState<Boolean>(true);
+
   return (
-    <div className="flex flex-col justify-between min-h-screen w-full max-w-[1920px] bg-paper p-8">
+    <div
+      className={`flex flex-col justify-between min-h-screen w-full max-w-[1920px] bg-paper p-8 dark:bg-blackish ${
+        darkMode && "dark"
+      }`}
+    >
       <header>
         <Header />
       </header>
-      <section className="container py-16 px-10">{props.children}</section>
+      <div className="container py-16 px-10 w-full">{props.children}</div>
       <footer>
         <Footer />
       </footer>
