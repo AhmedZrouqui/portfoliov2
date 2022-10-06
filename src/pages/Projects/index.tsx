@@ -4,6 +4,27 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 function Projects() {
   return (
     <div className="">
+      <div className="title mb-24">
+        <h1 className="font-magilio text-8xl text-blackish">Projects</h1>
+        <div className="my-4 text-md">
+          <p className="my-1">I'm glad you made it this far!</p>
+          <p className="my-1">
+            I have mentioned some of the projects I worked on, however, most of
+            my experiences are private, so I cannot share here!
+          </p>
+          <p className="my-1">
+            You also can have a look at my{" "}
+            <a
+              href="https://github.com/ahmedZrouqui"
+              className="cursor-pointer underline hover:text-primary duration-200 ease-in-out"
+              target="_blank"
+            >
+              Github profile
+            </a>
+            .
+          </p>
+        </div>
+      </div>
       <div className="project flex justify-between mb-24">
         <div className="">
           <a
