@@ -10,7 +10,7 @@ function Home() {
           H<span className="italic">ey there</span> 👋
         </h4>
         <h1 className="font-magilio text-8xl text-blackish">
-          I'm Ahmed Zrouqui!
+          I'm Ahmed Zrouqui ✨
         </h1>
       </div>
       <div className="font-poppins my-4 text-md leading-8">
@@ -28,7 +28,7 @@ function Home() {
           >
             Blues
           </a>{" "}
-          music.
+          music 🎸🤘.
         </p>
         <p className="my-1">
           Based in{" "}
@@ -37,7 +37,7 @@ function Home() {
             className="p-1 bg-lighter cursor-pointer"
             target="_blank"
           >
-            Morocco
+            Morocco 🇲🇦
           </a>
           , exactly{" "}
           <a
