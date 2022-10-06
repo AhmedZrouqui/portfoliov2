@@ -5,9 +5,8 @@ function Projects() {
   return (
     <div className="">
       <div className="title mb-24">
-        <h1 className="font-magilio text-8xl text-blackish">Projects</h1>
-        <div className="my-4 text-md">
-          <p className="my-1">I'm glad you made it this far!</p>
+        <h1 className="font-magilio text-6xl text-blackish">Projects 📦</h1>
+        <div className="my-4 text-lg">
           <p className="my-1">
             I have mentioned some of the projects I worked on, however, most of
             my experiences are private, so I cannot share here!
@@ -33,7 +32,7 @@ function Projects() {
             rel="nereferrer"
           >
             1 - Personal Portfolio (This website)
-            <span className="top-[10px] right-[-30px] absolute">
+            <span className="top-[10px] right-[-30px] absolute hidden lg:block">
               <FaExternalLinkAlt className="text-lg" />
             </span>
           </a>
@@ -61,7 +60,7 @@ function Projects() {
             rel="nereferrer"
           >
             2 - Phoenix - Ecommerce
-            <span className="top-[10px] right-[-30px] absolute">
+            <span className="top-[10px] right-[-30px] absolute hidden lg:block">
               <FaExternalLinkAlt className="text-lg" />
             </span>
           </a>
@@ -94,7 +93,7 @@ function Projects() {
             rel="nereferrer"
           >
             3 - Discord Landing Page Clone
-            <span className="top-[10px] right-[-30px] absolute">
+            <span className="top-[10px] right-[-30px] absolute hidden lg:block">
               <FaExternalLinkAlt className="text-lg" />
             </span>
           </a>
@@ -130,7 +129,7 @@ function Projects() {
             rel="nereferrer"
           >
             4 - Personal Card Website
-            <span className="top-[10px] right-[-30px] absolute">
+            <span className="top-[10px] right-[-30px] absolute hidden lg:block">
               <FaExternalLinkAlt className="text-lg" />
             </span>
           </a>
