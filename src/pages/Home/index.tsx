@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Home() {
   return (
@@ -87,6 +87,13 @@ function Home() {
             target="_blank"
           >
             <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ahmed-zrouqui/"
+            className="cursor-pointer hover:text-primary duration-200 ease-in-out"
+            target="_blank"
+          >
+            <FaLinkedin />
           </a>
         </div>
 
