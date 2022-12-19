@@ -1,9 +1,25 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
   return (
     <div className="">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Ahmed Zrouqui - Projects</title>
+        <meta
+          name="description"
+          content="Projects page - You can browse the various projects I have contributed to, have a look!"
+        />
+        <meta name="title" content="Ahmed Zrouqui - Projects" />
+        <meta name="og:title" content="Ahmed Zrouqui - Projects" />
+        <meta
+          name="og:description"
+          content="Projects page - You can browse the various projects I have contributed to, have a look!"
+        />
+        <meta name="og:link" content="https://ahmedzrouqui.com/projects" />
+      </Helmet>
       <div className="title mb-24">
         <h1 className="font-magilio text-6xl text-blackish">Projects 📦</h1>
         <div className="my-4 text-lg">
@@ -17,6 +33,7 @@ function Projects() {
               href="https://github.com/ahmedZrouqui"
               className="cursor-pointer underline hover:text-primary duration-200 ease-in-out"
               target="_blank"
+              rel="noreferrer"
             >
               Github profile
             </a>
@@ -57,7 +74,7 @@ function Projects() {
             className="font-magilio text-6xl text-blackish mb-8 relative hover:underline"
             href="https://Getmyphoenix.com"
             target="_blank"
-            rel="nereferrer"
+            rel="noreferrer"
           >
             2 - Phoenix - Ecommerce
             <span className="top-[10px] right-[-30px] absolute hidden lg:block">
@@ -90,7 +107,7 @@ function Projects() {
             className="font-magilio text-6xl text-blackish mb-8 relative hover:underline"
             href="https://superb-gnome-c7d83b.netlify.app/"
             target="_blank"
-            rel="nereferrer"
+            rel="noreferrer"
           >
             3 - Discord Landing Page Clone
             <span className="top-[10px] right-[-30px] absolute hidden lg:block">
@@ -104,6 +121,7 @@ function Projects() {
                 href="https://discord.com"
                 className="p-1 bg-lighter cursor-pointer"
                 target="_blank"
+                rel="noreferrer"
               >
                 Discord
               </a>{" "}
@@ -126,7 +144,7 @@ function Projects() {
             className="font-magilio text-6xl text-blackish mb-8 relative hover:underline"
             href="https://suspicious-turing-38678b.netlify.app/"
             target="_blank"
-            rel="nereferrer"
+            rel="noreferrer"
           >
             4 - Personal Card Website
             <span className="top-[10px] right-[-30px] absolute hidden lg:block">
