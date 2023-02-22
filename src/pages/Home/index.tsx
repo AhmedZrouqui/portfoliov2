@@ -25,6 +25,7 @@ function Home() {
             href="https://fr.wikipedia.org/wiki/Blues"
             className="p-1 bg-lighter cursor-pointer"
             target="_blank"
+            rel="noreferrer"
           >
             Blues
           </a>{" "}
@@ -36,6 +37,7 @@ function Home() {
             href="https://en.wikipedia.org/wiki/Morocco"
             className="p-1 bg-lighter cursor-pointer"
             target="_blank"
+            rel="noreferrer"
           >
             Morocco 🇲🇦
           </a>
@@ -44,6 +46,7 @@ function Home() {
             href="https://en.wikipedia.org/wiki/Casablanca"
             className="p-1 bg-lighter cursor-pointer"
             target="_blank"
+            rel="noreferrer"
           >
             Casablanca
           </a>
@@ -54,6 +57,7 @@ function Home() {
             href="https://www.upwork.com/freelancers/~011cd94423f7fc78c5"
             className="p-1 bg-lighter cursor-pointer"
             target="_blank"
+            rel="noreferrer"
           >
             Upwork
           </a>
@@ -71,6 +75,7 @@ function Home() {
             href="https://www.instagram.com/_itsahm3d/"
             className="cursor-pointer hover:text-primary duration-200 ease-in-out"
             target="_blank"
+            rel="noreferrer"
           >
             <FaInstagram />
           </a>
@@ -78,6 +83,7 @@ function Home() {
             href="https://twitter.com/itsahmed_dev"
             className="cursor-pointer hover:text-primary duration-200 ease-in-out"
             target="_blank"
+            rel="noreferrer"
           >
             <FaTwitter />
           </a>
@@ -85,6 +91,7 @@ function Home() {
             href="https://github.com/ahmedZrouqui"
             className="cursor-pointer hover:text-primary duration-200 ease-in-out"
             target="_blank"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
@@ -92,6 +99,7 @@ function Home() {
             href="https://www.linkedin.com/in/ahmed-zrouqui/"
             className="cursor-pointer hover:text-primary duration-200 ease-in-out"
             target="_blank"
+            rel="noreferrer"
           >
             <FaLinkedin />
           </a>
@@ -100,6 +108,7 @@ function Home() {
         <a
           href="https://www.buymeacoffee.com/ahmed.dev"
           target="_blank"
+          rel="noreferrer"
           className="block mt-6 underline font-light text-primary"
         >
           Buy me a cup of coffee.
