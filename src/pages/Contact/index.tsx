@@ -1,5 +1,6 @@
 import React, { SyntheticEvent, useRef } from "react";
 import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
+import { Helmet } from "react-helmet";
 
 function Contact() {
   const form = useRef<HTMLFormElement>(null);
@@ -24,6 +25,21 @@ function Contact() {
 
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Ahmed Zrouqui - Contact me</title>
+        <meta
+          name="description"
+          content="Contact page - Come say Hi, let's build something cool!"
+        />
+        <meta name="title" content="Ahmed Zrouqui - Contact" />
+        <meta name="og:title" content="Ahmed Zrouqui - Contact" />
+        <meta
+          name="og:description"
+          content="Contact page - Come say Hi, let's build something cool!"
+        />
+        <meta name="og:link" content="https://ahmedzrouqui.com/contact" />
+      </Helmet>
       <div className="title mb-16">
         <h1 className="font-magilio text-6xl text-blackish">
           Glad you came to say Hi 😁!

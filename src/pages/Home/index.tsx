@@ -1,10 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
     <div className="max-w-[1020px]">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Ahmed Zrouqui - Home page</title>
+        <meta
+          name="description"
+          content="Home page - Welcome to my portfolio, I'm a web developer, visit my webpage to know more about me!"
+        />
+        <meta name="title" content="Ahmed Zrouqui - Home page" />
+        <meta name="og:title" content="Ahmed Zrouqui - Home page" />
+        <meta
+          name="og:description"
+          content="Home page - Welcome to my portfolio, I'm a web developer, visit my webpage to know more about me!"
+        />
+        <meta name="og:link" content="https://www.ahmedzrouqui.com/" />
+      </Helmet>
       <div>
         <h4 className="font-magilio text-6xl text-blackish mb-2">
           H<span className="italic">ey there</span> 👋

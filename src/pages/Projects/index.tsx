@@ -1,9 +1,25 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
   return (
     <div className="">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Ahmed Zrouqui - Projects</title>
+        <meta
+          name="description"
+          content="Projects page - You can browse the various projects I have contributed to, have a look!"
+        />
+        <meta name="title" content="Ahmed Zrouqui - Projects" />
+        <meta name="og:title" content="Ahmed Zrouqui - Projects" />
+        <meta
+          name="og:description"
+          content="Projects page - You can browse the various projects I have contributed to, have a look!"
+        />
+        <meta name="og:link" content="https://ahmedzrouqui.com/projects" />
+      </Helmet>
       <div className="title mb-24">
         <h1 className="font-magilio text-6xl text-blackish">Projects 📦</h1>
         <div className="my-4 text-lg">
